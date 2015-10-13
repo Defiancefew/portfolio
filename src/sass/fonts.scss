@@ -1,19 +1,29 @@
 @font-face {
-	font-family: 'OpenSans-Bold';
-	src: url('../fonts/OpenSans-Bold.eot'); 
-	src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'), 
-			 url('../fonts/OpenSans-Bold.woff2') format('woff2'),
-			 url('../fonts/OpenSans-Bold.woff') format('woff'),
-			 url('../fonts/OpenSans-Bold.ttf')  format('truetype'),
-			 url('../fonts/OpenSans-Bold.svg#svgFontName') format('svg');
+	font-family: 'Bebas-Regular';
+	src: url('../fonts/bebas.eot'); 
+	src: url('../fonts/bebas.eot?#iefix') format('embedded-opentype'), 
+			 url('../fonts/bebas.woff2') format('woff2'),
+			 url('../fonts/bebas.woff') format('woff'),
+			 url('../fonts/bebas.ttf')  format('truetype'),
+			 url('../fonts/bebas.svg#svgFontName') format('svg');
 }
 
 @font-face {
-	font-family: 'OpenSans-Regular';
-	src: url('../fonts/OpenSans-Regular.eot'); 
-	src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), 
-			 url('../fonts/OpenSans-Regular.woff2') format('woff2'),
-			 url('../fonts/OpenSans-Regular.woff') format('woff'),
-			 url('../fonts/OpenSans-Regular.ttf')  format('truetype'),
-			 url('../fonts/OpenSans-Regular.svg#svgFontName') format('svg');
+  font-family: 'BlackJack-Regular';
+  src: url('../fonts/black_jack.eot'); 
+  src: url('../fonts/black_jack.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/black_jack.woff2') format('woff2'),
+       url('../fonts/black_jack.woff') format('woff'),
+       url('../fonts/black_jack.ttf')  format('truetype'),
+       url('../fonts/black_jack.svg#svgFontName') format('svg');
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../fonts/lato-regular.eot'); 
+  src: url('../fonts/lato-regular.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/lato-regular.woff2') format('woff2'),
+       url('../fonts/lato-regular.woff') format('woff'),
+       url('../fonts/lato-regular.ttf')  format('truetype'),
+       url('../fonts/lato-regular.svg#svgFontName') format('svg');
 }

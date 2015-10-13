@@ -1,0 +1,93 @@
+/////////////////////////////////////// FONTS //////////////////////////////////
+$bebas: "Bebas-Regular", sans-serif
+$blackjack: "BlackJack-Regular", sans-serif
+$lato: "Lato-Regular", sans-serif
+
+/////////////////////////////////////// COLORS //////////////////////////////////
+$grey: #222831
+$orange: #ff8a00
+/////////////////////////////////////// COMPONENTS //////////////////////////////////
+
+%wrapper
+  max-width: 1200px
+  margin: 0 auto
+
+%button_ghost
+  width: 200px
+  height: 50px
+  line-height: 50px
+  border: 3px solid #eee
+  border-radius: 10px
+  font-family: $bebas
+  font-size: 18px
+  background-color: transparent
+  text-transform: uppercase
+  color: #eee
+  &:active
+    border: 3px solid $orange
+    color: $orange
+    text-transform: uppercase
+
+
+%button_grey
+  font-family: $bebas
+  width: 210px
+  height: 50px
+  background-color: $grey
+  font-size: 18px
+  color: white
+  line-height: 50px
+  margin: 0 auto
+  display: block
+
+body
+  font-family: $bebas
+
+/////////////////////////////////////// HEADER //////////////////////////////////
+
+.header
+  padding: 30px 10px 0 10px
+  background-image: url("../../img/header_bg.jpg")
+  height: 100vh
+  background-repeat: no-repeat
+  background-size: cover
+  &__wrapper
+    @extend %wrapper
+  &__logo
+    display: inline-block
+    vertical-align: middle
+    width: 100px
+    height: 30px
+    float: left
+  &__burger
+    display: inline-block
+    vertical-align: middle
+    width: 25px
+    height: 34px
+    float: right
+  &__jumbotron
+    display: block
+    +ca
+  &__heading
+    font-family: $bebas
+    line-height: 75px
+    font-size: 48px
+    text-transform: uppercase
+    color: $orange
+    text-align: center
+  &__line
+    width: 300px
+    height: 3px
+    background-color: #eee
+    margin: 0 auto
+  &__subtext
+    font-family: $bebas
+    line-height: 90px
+    font-size: 48px
+    text-transform: uppercase
+    color: #eee
+    text-align: center
+  &__button
+    @extend %button_ghost
+    display: block
+    margin: 0 auto
